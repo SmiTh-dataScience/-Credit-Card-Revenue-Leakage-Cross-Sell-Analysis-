@@ -2,7 +2,7 @@
 
 A data analytics project focused on identifying revenue leakage and upselling potential in a simulated credit card customer base using **Python** and **Power BI**.
 
-![Dashboard Preview](./https://app.powerbi.com/view?r=eyJrIjoiZmRkYmIwNWEtNmZjYi00MGVhLWI0MTktOTUxNWM5ZjUzNzA3IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+![Credit Card Dashboard](./credit-card-dashboard.png)
 
 ---
 
@@ -49,7 +49,6 @@ To analyze 68,000 simulated credit card customers to:
 > - Cross-Sell Eligibility
 > - Leakage from Dormant Users
 
-![Credit Card Dashboard](./credit-card-dashboard.png)
 
 ---
 
