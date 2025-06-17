@@ -1,79 +1,63 @@
 # 💳 Credit Card Revenue Leakage & Cross-Sell Opportunity Analysis
 
-![Power BI Dashboard](https://your-image-link.com/dashboard-screenshot.png) <!-- Replace with your actual image link -->
+A data analytics project focused on identifying revenue leakage and upselling potential in a simulated credit card customer base using **Python** and **Power BI**.
 
-## 📌 Project Overview
-
-In this FinTech analytics project, I analyzed transactional and behavioral data of 68,000+ credit card customers to uncover:
-
-- ₹1.9 Crore revenue leakage from dormant users
-- 67% customers labeled as "Low Spenders" contributing majority of revenue
-- 28.9% of customers eligible for cross-sell campaigns
-- Opportunities to increase Net Interest Income and reduce late fee dependency
-
-> This project demonstrates how data analytics can directly impact business strategy and profitability.
+![Dashboard Preview](./https://app.powerbi.com/view?r=eyJrIjoiZmRkYmIwNWEtNmZjYi00MGVhLWI0MTktOTUxNWM5ZjUzNzA3IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 ---
 
-## ⚙️ Tools & Technologies Used
+## 🔍 Project Overview
 
-| Category        | Tools Used                          |
-|----------------|-------------------------------------|
-| Programming     | Python (Pandas, NumPy, Matplotlib)  |
-| Data Wrangling  | Python + Excel                      |
-| BI Visualization| Power BI                            |
-| IDE             | Jupyter Notebook + Power BI Desktop |
-
----
-
-## 🧠 Key Objectives
-
-- Detect dormant cardholders and quantify potential revenue loss
-- Identify customer segments based on spending patterns and risk
-- Build a Power BI dashboard for business and product teams
-- Provide actionable recommendations for improving revenue streams
+**Objective:**  
+To analyze 68,000 simulated credit card customers to:
+- Identify segments causing **revenue leakage** (especially dormant users).
+- Analyze **payment behavior and spend distribution**.
+- Recommend **cross-sell opportunities** like EMI & premium cards to maximize revenue.
 
 ---
 
-## 📊 Insights & Impact
+## 📈 Key Metrics & Findings
 
-📍 Revenue Leakage:
-- ₹1.9 Cr in unrealized revenue from dormant cardholders
-- Dormants make up just 5% of users but generate ₹0 revenue
+| Metric                        | Value         |
+|------------------------------|---------------|
+| Total Customers              | 68,000        |
+| Revenue Collected            | ₹3.9 Cr       |
+| Revenue Lost (Dormant Users) | ₹1.9 Cr       |
+| Eligible for Cross-Sell      | 28.9%         |
 
-📍 Segmentation:
-- Customers classified into:
-  - High Spenders
-  - Low Spenders
-  - Revolvers
-  - Transactors
-  - Dormants
-
-📍 Cross-Sell Opportunity:
-- 28.9% customers eligible for product upsell based on current utilization
-- Low Spenders have high lifetime value potential if cross-sold properly
-
-📍 Late Fee & Interest:
-- Overdependence on late fees and interest income
-- Recommended risk profiling + financial education nudges
+### 🔑 Key Insights:
+- **68%** of customers are **Low Spenders**, contributing ~50% of revenue.
+- **Dormant users (5%)** lead to ₹1.9 Cr in lost revenue.
+- Highest potential to cross-sell **EMI** and **Premium** cards to on-time paying low spenders.
 
 ---
 
-## 📸 Dashboards & Visuals
+## 🛠 Tools & Technologies
 
-| Power BI Snapshot | Python Output |
-|--------------------|----------------|
-| ![PowerBI](https://your-image-link.com/dashboard.png) | ![Python Segmentation](https://your-image-link.com/segmentation.png) |
+- 📊 **Power BI** – KPI dashboarding and visualization
+- 🐍 **Python** – Data cleaning, analysis (pandas, numpy, matplotlib)
+- 📁 **Jupyter Notebook** – Exploratory data analysis
+- 🧠 **Segmentation** – Spend tiers, payment behavior classification
 
 ---
 
-## 🔍 Folder Structure
+## 📊 Dashboard Preview
+
+> Interactive Power BI dashboard displaying:
+> - Spend Segment Distribution
+> - Payment Behavior
+> - Cross-Sell Eligibility
+> - Leakage from Dormant Users
+
+![Credit Card Dashboard](./credit-card-dashboard.png)
+
+---
+
+## 📁 Project Structure
 
 ```bash
-CreditCard_Revenue_Leakage_Project/
-│
-├── data/                     # Cleaned and raw datasets
-├── notebooks/                # Python Jupyter Notebooks (EDA, Segmentation)
-├── reports/                  # Screenshots, visuals, and PDF reports
-├── powerbi_dashboard.pbix    # Power BI file
-└── README.md                 # Project Overview
+├── Credit Card Revenue Leakage & Cross-Sell Opportunity Analysis.ipynb
+├── dashboard-thumbnail.png
+├── credit-card-dashboard.png
+├── cleaned_dataset.csv
+└── README.md
