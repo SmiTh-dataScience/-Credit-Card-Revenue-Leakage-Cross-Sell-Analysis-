@@ -1,6 +1,7 @@
 # 💳 Credit Card Revenue Leakage & Cross-Sell Opportunity Analysis
 
 A data analytics project focused on identifying revenue leakage and upselling potential in a simulated credit card customer base using **Python** and **Power BI**.
+[🔗 View Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmRkYmIwNWEtNmZjYi00MGVhLWI0MTktOTUxNWM5ZjUzNzA3IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 ![Credit Card Dashboard](./credit-card-dashboard.png)
 
