@@ -7,57 +7,74 @@ A data analytics project focused on identifying revenue leakage and upselling po
 
 ---
 
-## 🔍 Project Overview
+# Credit Card Revenue Leakage & Cross-Sell Opportunity Analysis
 
-**Objective:**  
-To analyze 68,000 simulated credit card customers to:
-- Identify segments causing **revenue leakage** (especially dormant users).
-- Analyze **payment behavior and spend distribution**.
-- Recommend **cross-sell opportunities** like EMI & premium cards to maximize revenue.
-
----
-
-## 📈 Key Metrics & Findings
-
-| Metric                        | Value         |
-|------------------------------|---------------|
-| Total Customers              | 68,000        |
-| Revenue Collected            | ₹3.9 Cr       |
-| Revenue Lost (Dormant Users) | ₹1.9 Cr       |
-| Eligible for Cross-Sell      | 28.9%         |
-
-### 🔑 Key Insights:
-- **68%** of customers are **Low Spenders**, contributing ~50% of revenue.
-- **Dormant users (5%)** lead to ₹1.9 Cr in lost revenue.
-- Highest potential to cross-sell **EMI** and **Premium** cards to on-time paying low spenders.
+## 📌 Business Problem
+A credit card provider with **68,000 customers** was facing revenue loss despite a large user base.
+The objective was to identify **revenue leakage**, **inactive users**, and **cross-sell opportunities**
+using customer spending and payment behavior.
 
 ---
 
-## 🛠 Tools & Technologies
-
-- 📊 **Power BI** – KPI dashboarding and visualization
-- 🐍 **Python** – Data cleaning, analysis (pandas, numpy, matplotlib)
-- 📁 **Jupyter Notebook** – Exploratory data analysis
-- 🧠 **Segmentation** – Spend tiers, payment behavior classification
-
----
-
-## 📊 Dashboard Preview
-
-> Interactive Power BI dashboard displaying:
-> - Spend Segment Distribution
-> - Payment Behavior
-> - Cross-Sell Eligibility
-> - Leakage from Dormant Users
-
+## 🎯 Objectives
+- Identify dormant customers and quantify revenue leakage
+- Segment customers based on spending behavior
+- Analyze payment behavior to uncover upsell potential
+- Recommend actionable cross-sell strategies
 
 ---
 
-## 📁 Project Structure
+## 🧩 Dataset Overview
+- Customers: 68,000
+- Key features:
+  - Monthly Spend
+  - Payment Behavior
+  - Activity Status
+  - Card Type
+  - Income Bracket
+  - Fees & Late Charges
 
-```bash
-├── Credit Card Revenue Leakage & Cross-Sell Opportunity Analysis.ipynb
-├── dashboard-thumbnail.png
-├── credit-card-dashboard.png
-├── cleaned_dataset.csv
-└── README.md
+(Data is simulated for learning and analysis purposes.)
+
+---
+
+## 🔧 Tools Used
+- Python (Pandas, NumPy) – Data cleaning & analysis
+- SQL (logic-based) – Segmentation rules
+- Power BI – Dashboard & business storytelling
+- Jupyter Notebook – EDA & analysis
+
+---
+
+## 📊 Key Insights
+- **68% of users are low spenders contributing ~50% of total revenue**
+- **₹1.9 Cr revenue leakage identified from dormant users**
+- **28.9% of users eligible for targeted cross-sell**
+- On-time payers dominate, indicating strong credit behavior
+- Late & Minimum Due users show structured upsell potential
+
+---
+
+## 💡 Business Recommendations
+- Reactivate dormant users to recover ₹1.9 Cr revenue leakage
+- Target low spenders with EMI and premium card cross-sell offers
+- Use payment behavior as a risk filter before credit upgrades
+
+---
+
+## 📈 Business Impact
+- Identified ₹1.9 Cr in dormant revenue leakage
+- Discovered 28.9% cross-sell eligible customer base
+- Enabled data-driven decisions for marketing & finance teams
+
+---
+
+## 📷 Dashboard Preview
+(See `dashboard/` folder)
+
+---
+
+## 👤 Author
+**Smith Solanki**  
+Aspiring Data Analyst  
+Skills: Python | SQL | Power BI | Business Analytics
